@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CharacterName" Class="DataBaseCharactersDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=НАСТЯ-ПК\SQLEXPRESS;Initial Catalog=CharacterName;Integrated Security=True" SettingsObjectName="Random_nick.Properties.Settings" SettingsPropertyName="CharacterNameConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.FirstNameCharacter" Member="FirstNameCharacter">
+    <Type Name="FirstNameCharacter">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="firstname" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LastNameCharacteer" Member="LastNameCharacteer">
+    <Type Name="LastNameCharacteer">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="lastname" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
